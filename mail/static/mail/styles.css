@@ -1,0 +1,67 @@
+textarea {
+    min-height: 400px;
+}
+
+.read {
+    background-color: #d7d7d7;
+}
+
+.unread {
+    background-color: white;
+}
+
+.border-style {
+    border: 1px solid black;
+}
+
+/* Apply styles to the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+h2 {
+    background-color: #3f75afc4;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/* Style the navigation buttons */
+.btn-primary,
+.btn-secondary,
+.btn-info,
+.btn-outline-primary {
+    margin: 5px;
+}
+
+/* Style the email list */
+.list-group-item {
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+/* Style the mailbox name */
+#emails-view h3 {
+    margin-top: 20px;
+}
+
+/* Style the compose form */
+#compose-form {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+/* Style the see-more container */
+#see-more {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
